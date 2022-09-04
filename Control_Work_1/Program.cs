@@ -8,4 +8,6 @@
 ["1234","1567","-2","computer sciense"] -> ["-2"]
 ["Russia","Denmark","Kazan",":-)"] -> []
 */
-Console.WriteLine("Hello, World!");
+Console.Write("Введите строки первого массива через пробел: ");
+string[] array = Console.ReadLine().Split();
+Console.WriteLine("Получен массив строк : {0}", String.Join(", ", array));
